@@ -33,21 +33,6 @@ When a query is entered, the pipeline retrieves relevant documents from the data
    ```bash
    streamlit run app.py
    ```
-
-## ☁️ How to Deploy on Streamlit Community Cloud
-
-1. **Upload to GitHub:** Push this entire directory (including the `chroma_db` folder) to a **Private** GitHub repository.
-2. **Connect to Streamlit:** Go to [Streamlit Share](https://share.streamlit.io/) and select "Deploy a public app from GitHub".
-3. **Configure Settings:**
-   - Select your repository.
-   - Set the Main file path to `app.py`.
-4. **Set your Secrets:**
-   - Before clicking deploy, go to **Advanced Settings** -> **Secrets**.
-   - Add your Groq API key exactly like this:
-     ```toml
-     GROQ_API_KEY="your_api_key_here"
-     ```
-5. Click **Deploy!**
-
+Thank You !!!
 ---
 *Built with Streamlit, LangChain, and Groq.*
